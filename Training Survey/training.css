@@ -1,0 +1,25 @@
+form{
+    background-color: #fff;
+    border-radius: 25px;
+    max-width: 500px;
+    margin: 50px auto; 
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+button{
+    background-color: #284b63;
+    border: 1px solid #777; 
+    border-radius: 25px;
+    font-size: 21px 
+    display: block; 
+    width: 5em; 
+    height: 2em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+h1{
+    color: #284b63;
+    text-decoration:underline;
+}
+
+

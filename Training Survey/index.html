@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>  
+<!-- This is my first HTML Project Solo -->  
+<html> 
+<head> 
+<title>Training Survey</title> 
+<link rel="stylesheet" href="training.css">
+</head> 
+<body style="background-color:#081c15" >
+<form action="/TrainingSurvey" 
+<div align="center"> 
+<h1>Training Survey</h1>  
+Enter your name: 
+<input type="text" name="UserName" placeholder="Full Name" minlength=5 maxlength=30 value="" Required>
+</br></br> 
+Enter your department: 
+<input type="radio" name="department" id="rcc" value="rcc" Required> 
+<label for="rcc">RCC</label> 
+<input type="radio" name="department" id="ccc" value="ccc" Required> 
+<label for="ccc">CCC</label> 
+</br></br> 
+Enter your class code:  
+<select name="region" id="region">  
+<option value="Default">Region</option> 
+    <option value="Grant">GRT</option> 
+    <option value="Lake">LKE</option> 
+    <option value="Vandy">VDY</option> 
+    </select>   
+<select name="class" id="class"> 
+<option value="Default">Please select one</option> 
+    <option value="Wendy's">102</option> 
+    <option value="Jonondra's">103</option> 
+    <option value="Lindsey's">104</option> 
+    <option value="Brendon's">105</option>      
+</select> 
+<p> 
+Which of the following work groups interest you: 
+(check all that apply) 
+</br></br> 
+<input type="checkbox" name="work_group">Application Registration 
+<input type="checkbox" name="work_group">Authorized Representative 
+</p> 
+Would you be interested in additional training later? 
+<input type="radio" name="training">Yes 
+<input type="radio" name="training">No 
+<p> 
+Which department would you be interested in: 
+(check all that apply) 
+</br></br> 
+<input type="checkbox" name="adv_departmen">RCC 
+<input type="checkbox" name="adv_department">Hearings & Appeals  
+<input type="checkbox" name="adv_departmen">Benefit Recovery 
+</p> 
+Please leave any other feedback below: 
+</br></br> 
+<textarea name="Comments" cols=30 rows=4></textarea>  
+</br></br> 
+<button style="color:white">Submit</button> 
+</body> 
+</html> 
